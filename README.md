@@ -1,1 +1,7 @@
 Um jogo bobinho a partir do desafio do pessoal da One em parceria da Alura!
+O jogo em si se trata de uma ferramenta de armazenamento e entao de sorteamento de nomes de pessoas aleatorias e afins.
+Usei das funcoes que aprendi como Function, Let, If, lista[], return e entre outros. Mas sem fazer rodeios acho interessante contar as dificuldades que passei.
+Difuculdades: O meu projeto passou por diversas dificuldades pelo simples motivo de eu ter comecado a faze-lo sem o curso do GPT nem os de HTML prontos.
+Nao entendia o do porque meus codigos darem erros continuos nas funcoes, e tive que quebrar a cabeca mais e mais do que poderia ser esse problema, ate eu engolir o orgulho e perguntar ao proprio GPT o que poderia fazer, que atalhos poderia tomar e assim por diante, passei minha linha de codigo a ele com o auxilio da linha de codigo de HTML ja fornecida e ele me apresentou muito mais informacoes, que deixariam minha vida mais facil.
+Ele comecou pelo uso de const, que eu achei meio inutil, mas principalmente me mostrou a utilizacao do DOMContentLoaded me explicando que o maior problema nas minhas funcoes eram que elas estavam sendo carregadas antes mesmo do HTML, logo elas eram inevitavelmente nulificadas pois a linha apps.js estava no Head, carregando antes do HTML. Me auxiliou entao a usar o window para que as funcoes pudessem ser vistas globalmente pelo codigo, e que entao finalmente funcionassem.
+No fim eu me diverti codando, mas devo admitir que esse desafio mostrou o quao frustrante pode ser a vida de um back-end.
